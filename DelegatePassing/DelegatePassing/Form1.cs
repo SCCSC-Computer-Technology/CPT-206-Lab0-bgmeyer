@@ -59,5 +59,12 @@ namespace DelegatePassing
             // Pass value and the delegate to ShowResult.
             ShowResult(ref value, operation);
         }
+
+          private void PullRequest()
+        {
+            
+            //Demo Pull Request
+            MessageBox.Show("I finsihed the course. I hope I did this right it was a little confusing lol");
+        }
     }
 }
